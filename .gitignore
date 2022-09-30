@@ -34,3 +34,6 @@ build/
 
 ### config
 src/main/resources/application.properties
+
+### cache / tmp files
+.DS_Store

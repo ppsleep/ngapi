@@ -16,7 +16,9 @@ public class LoginController {
     @RequestMapping("/login")
     public Object Login() {
         Object kkx = usersService.findById(1);
+        Object all = usersService.findAll();
         System.out.println(kkx);
+        System.out.println(all);
         return 0;
     }
 

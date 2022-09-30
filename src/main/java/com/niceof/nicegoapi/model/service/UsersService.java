@@ -2,7 +2,6 @@ package com.niceof.nicegoapi.model.service;
 
 import com.niceof.nicegoapi.model.entity.Users;
 
-public interface UsersService {
-    Users findById(Integer id);
+public interface UsersService extends BaseService<Users, Integer> {
     Users findByUsername(String username);
 }

@@ -20,10 +20,6 @@ public class UsersServiceImpl extends BaseServiceImpl<Users, Integer> implements
     }
 
     @Override
-    public Users findById(Integer id) {
-        return usersRepository.findById(id).get();
-    }
-    @Override
     public Users findByUsername(String username) {
         return usersRepository.findByUsername(username);
     }
